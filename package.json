@@ -1,0 +1,29 @@
+{
+  "name": "grid-client-browser",
+  "version": "0.0.1",
+  "description": "Grid Client for Browser",
+  "main": "./js/index.js",
+  "typings": "./js/index.d.ts",
+  "scripts": {},
+  "keywords": [
+    "Grid",
+    "Client",
+    "Node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wchang28/grid-client-node.git"
+  },
+  "author": {
+    "name": "Wen Chang"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/es6-promise": "0.0.32",
+    "@types/node": "^6.0.41",
+    "grid-client-core": "git+https://github.com/wchang28/grid-client-core.git",
+    "oauth2": "git+https://github.com/wchang28/oauth2.git",
+    "oauth2-token-grant": "git+https://github.com/wchang28/oauth2-token-grant.git",
+    "rest-browser": "git+https://github.com/wchang28/rest-browser.git"
+  }
+}
