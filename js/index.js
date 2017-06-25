@@ -18,7 +18,7 @@ var grid_client_core_1 = require("grid-client-core");
 var GridSession = (function (_super) {
     __extends(GridSession, _super);
     function GridSession() {
-        return _super.call(this, $browser.get({ EventSource: global['EventSource'] }), null, null) || this;
+        return _super.call(this, $browser.get(), null, null) || this;
     }
     GridSession.prototype.logout = function () {
         return new Promise(function (resolve, reject) {
