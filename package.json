@@ -1,6 +1,6 @@
 {
   "name": "grid-client-browser",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Grid Client for Browser",
   "main": "./js/index.js",
   "typings": "./js/index.d.ts",

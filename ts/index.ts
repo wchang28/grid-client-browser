@@ -3,7 +3,7 @@ import {ISession, SessionBase} from 'grid-client-core';
 
 class GridSession extends SessionBase implements ISession {
     constructor() {
-        super($browser.get(), null, null);
+        super($browser.get(), null);
     }
     logout() : Promise<any> {
         return new Promise<any>((resolve: (value: any) => void, reject: (err: any) => void) => {
